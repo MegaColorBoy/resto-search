@@ -1,6 +1,8 @@
 # Restaurant Food Search App
 This project was built as a means to learn ReactJS using an API.
 
+Here's the working version of the app: [https://resto-search.herokuapp.com](https://resto-search.herokuapp.com)
+
 ## Status
 Overall, this project is functional but it's a bit incomplete in some parts as I'm currently learning how to manage state with multiple checkboxes and dynamic modals using ReactJS.
 
