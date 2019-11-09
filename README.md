@@ -4,6 +4,8 @@ This project was built as a means to learn ReactJS using an API.
 ## Status
 Overall, this project is functional but it's a bit incomplete in some parts as I'm currently learning how to manage state with multiple checkboxes and dynamic modals using ReactJS.
 
+The code might not be neat but it does the job, I guess so.
+
 ## My approach towards the project
 I thought of building a functional UI where the user is allowed to filter the restaurants based on keyword, cuisines and categories. In addition, I thought of fetching restaurants based on current location (by default).
 
