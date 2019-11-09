@@ -1,68 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Restaurant Food Search App
+This project was built as a means to learn ReactJS using an API.
 
-## Available Scripts
+## Status
+Overall, this project is functional but it's a bit incomplete in some parts as I'm currently learning how to manage state with multiple checkboxes and dynamic modals using ReactJS.
 
-In the project directory, you can run:
+## My approach towards the project
+I thought of building a functional UI where the user is allowed to filter the restaurants based on keyword, cuisines and categories. In addition, I thought of fetching restaurants based on current location (by default).
 
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Tasks:
+- [x] Display restaurants based on current location
+- [x] Display restaurants based on search
+- [x] Display restaurants based on cuisine, locality or category
+- [ ] Display restaurant information on a modal
+- [x] Sort results by ASC/DESC order based on rating
+- [x] Display cuisines in filter box
+- [x] Fetch cuisines based on area
+- [x] Fetch cities based on geolocation
+- [x] Fetch categories
+- [x] Make it CSS responsive
+- [x] Deploy on Heroku
